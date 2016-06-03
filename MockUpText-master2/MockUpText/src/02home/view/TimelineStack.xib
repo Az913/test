@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10116" systemVersion="15B42" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="TimelineStack" customModule="MockUpText" customModuleProvider="target">
+            <connections>
+                <outlet property="stack" destination="gb0-0b-Q9I" id="8ZD-sq-2I1"/>
+                <outlet property="view" destination="iN0-l3-epB" id="cwd-P9-WmL"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <stackView opaque="NO" contentMode="scaleToFill" misplaced="YES" axis="vertical" distribution="fillEqually" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="gb0-0b-Q9I">
+                    <rect key="frame" x="0.0" y="57" width="600" height="487"/>
+                </stackView>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="gb0-0b-Q9I" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="XA1-rZ-wQh"/>
+                <constraint firstItem="gb0-0b-Q9I" firstAttribute="height" secondItem="iN0-l3-epB" secondAttribute="height" id="q4e-XG-NGR"/>
+                <constraint firstItem="gb0-0b-Q9I" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="wGa-AO-hpD"/>
+                <constraint firstItem="gb0-0b-Q9I" firstAttribute="width" secondItem="iN0-l3-epB" secondAttribute="width" id="xng-bA-E7L"/>
+            </constraints>
+        </view>
+    </objects>
+</document>
